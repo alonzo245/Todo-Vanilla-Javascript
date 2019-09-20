@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+.mainSite {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.mainHeader {
+  background-color: #1fc8db;
+  background-image: linear-gradient(
+    141deg,
+    #9fb8ad 0%,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 600px;
+}
+
+.container .card{
+width: 100%;
+}
+.listGroup{
+    list-style: none;
+    width: 100%;
+
+}
+.listGroup .listGroupItem{
+    padding: 0.7rem;
+    border-bottom: 0.001rem solid #333;
+}
+.listGroup .listGroupItem .btn{
+float: right;
+}
